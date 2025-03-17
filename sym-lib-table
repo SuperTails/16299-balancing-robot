@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Arduino")(type "KiCad")(uri "${KIPRJMOD}/arduino-kicad-library/symbols/arduino-library.kicad_sym")(options "")(descr ""))
+  (lib (name "MiscBreakouts")(type "KiCad")(uri "${KIPRJMOD}/MiscBreakouts.kicad_sym")(options "")(descr ""))
+  (lib (name "Custom")(type "KiCad")(uri "${KIPRJMOD}/Custom.kicad_sym")(options "")(descr ""))
+)
