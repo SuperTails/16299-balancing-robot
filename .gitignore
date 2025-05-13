@@ -1,5 +1,6 @@
 fab.zip
 fab/
+.DS_Store
 
 # From https://github.com/github/gitignore/blob/main/KiCad.gitignore
 # For PCBs designed using KiCad: https://www.kicad.org/

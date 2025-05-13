@@ -51,6 +51,12 @@ def convert_placement(inpath, outpath, refs):
             for row in csvreader:
                 if row[0] in refs:
                     csvwriter.writerow([row[0], row[3], row[4], row[6], row[5]])
+            
+            # need to be fixed manually
+            csvwriter.writerow(['J14', '100.0', '100.0', 'top', '0'])
+            csvwriter.writerow(['J15', '110.0', '100.0', 'top', '0'])
+            csvwriter.writerow(['J16', '120.0', '100.0', 'top', '0'])
+            csvwriter.writerow(['J17', '130.0', '100.0', 'top', '0'])
 
 def main():
     bom = read_kicad_bom('balancingrobot.csv')
